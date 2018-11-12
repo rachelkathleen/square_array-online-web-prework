@@ -5,7 +5,7 @@
 #end
 
 def square_array(array)
-  array.map! do |element| element * element
+  array.collect! do |element| element * element
   end
   array
 end
